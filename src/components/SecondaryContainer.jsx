@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import MovieList from "./MovieList";
 import { useSelector } from "react-redux";
@@ -17,3 +18,12 @@ const SecondaryContainer = () => {
 };
 
 export default SecondaryContainer;
+=======
+import React from "react";
+
+const SecondaryContainer = () => {
+  return <div>secondary</div>;
+};
+
+export default SecondaryContainer;
+>>>>>>> 21f851628c24316e04779d73c73b874eea1c3c47
