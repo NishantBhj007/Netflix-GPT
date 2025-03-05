@@ -12,3 +12,4 @@
 -netflixgpt
 -search bar
 -movie suggestion
+-hindi,english search
