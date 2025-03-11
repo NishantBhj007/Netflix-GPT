@@ -14,3 +14,4 @@
 -movie suggestion
 -hindi,english search
 -fetching data through  TMDB API
+-memoization
