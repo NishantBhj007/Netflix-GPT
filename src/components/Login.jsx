@@ -81,11 +81,11 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img src={BG_URL} alt="" />
+        <img className="h-screen object-cover" src={BG_URL} alt="" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute w-3/12 p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"
+        className=" w-full md:w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"
       >
         <h1 className="font-bold text-3xl py-4">
           {isSighIn ? "Sign In" : "Sign Up"}
@@ -102,13 +102,13 @@ const Login = () => {
           ref={email}
           type="text"
           placeholder="Email Address"
-          className="p-2 my-4 w-full bg-gray-700"
+          className="p-4 my-4 w-full bg-gray-700"
         />
         <input
           ref={password}
           type="password"
           placeholder="Pasword"
-          className="p-2 my-4 w-full bg-gray-700"
+          className="p-4 my-4 w-full bg-gray-700"
         />
 
         <p className="font-bold text-red-700 text-lg p-2">{errorMessage}</p>
