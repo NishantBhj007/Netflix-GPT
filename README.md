@@ -15,3 +15,4 @@
 -hindi,english search
 -fetching data through  TMDB API
 -memoization
+site link-https://nflix-gem.netlify.app/
